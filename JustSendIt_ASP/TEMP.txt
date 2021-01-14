@@ -1,0 +1,6 @@
+﻿# SQL Query for insert data
+INSERT INTO [dbo].[Table](fileName, fileNameMD5, fileCode, filePath) 
+VALUES ('test', 'test','test', 'test');
+
+# SQL Query for select data
+select fileName, filePath from [dbo].[Table] where fileCode = 000000;
